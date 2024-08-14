@@ -1,4 +1,4 @@
-# TF-TGN
+# TF-TGN: Retrofitting Temporal Graph Neural Networks with Transformer
 The codebase for TF-TGN, a temporal graph neural network (TGNN) based on the **Transformer decoder** to model the evolution of temporal graphs.
 
 - TF-TGN structures the message aggregation operation between chronologically occurring nodes and their temporal neighbors in TGNNs as sequence modeling.
