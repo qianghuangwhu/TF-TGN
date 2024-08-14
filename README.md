@@ -26,5 +26,5 @@ The code of the TF-TGN model  will be released once we obtain open-source licens
 TF-TGN incorporates the the following components:
 - Flash-attention
 - Memeory-efficient attention
-- PyTorch FDSP ZeRO-2
+- PyTorch FDSP
 - Mixed precision training
