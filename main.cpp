@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
     vector<GraphDataType> src_list;
     vector<GraphDataType> dst_list;
     vector<GraphDataType> time_list;
-    string file_path = "edges.csv";
+    string file_path = "./reddit.csv";
 
     /*
     read_csv_file_tgn_format - for the tgn graph data type with million-scale edges;
