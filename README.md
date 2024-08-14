@@ -10,7 +10,9 @@ This  code is the implementation of the parallel sampling algorithm in the paper
 ```bash
 g++ -fopenmp -std=c++11 main.cpp TemporalGraph.cpp readcsv.cpp  utils.cpp -o main
 ```
-`string file_path` in the `main.cpp` is the path of the dataset. For example, `string file_path = "./reddit.csv";` `reddit.csv` is the Reddit dataset. 
+`string file_path` in the `main.cpp` is the path of the dataset. 
+
+For example, `string file_path = "./reddit.csv",` `reddit.csv` is the Reddit dataset. 
 
 ### run
 For example, `sample_num=128, batch_size=512`
