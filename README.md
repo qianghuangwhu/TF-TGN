@@ -17,10 +17,10 @@ The codebase for TF-TGN, a temporal graph neural network (TGNN) based on the **T
 ```
 ## Datasets
 - [UCI](http://konect.cc/networks/opsahl-ucforum/)
-- [Wikipedia、Reddit、LastFM](https://snap.stanford.edu/jodie/#datasets)
+- [Wikipedia, Reddit, LastFM](https://snap.stanford.edu/jodie/#datasets)
 - [Stack-Overflow](https://snap.stanford.edu/data/sx-stackoverflow.html)
 - [Wiki-Talk](http://snap.stanford.edu/data/wiki-talk-temporal.html)
-- [GDELT、MAG](https://github.com/amazon-science/tgl/blob/main/down.sh)
+- [GDELT, MAG](https://github.com/amazon-science/tgl/blob/main/down.sh)
 ## Sampling
 This  code is the implementation of the parallel sampling algorithm in the paper to enhance the efficiency of T-CSR converting and  temporal neighbor sampling. 
 ### compile
