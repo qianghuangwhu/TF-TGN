@@ -1,4 +1,3 @@
-// TemporalGraph.cpp - Implementation file for the TemporalGraph class
 #include "TemporalGraph.h"
 #include "utils.h"
 

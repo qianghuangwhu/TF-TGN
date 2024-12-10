@@ -1,4 +1,3 @@
-// TemporalGraph.h - Header file for the TemporalGraph class
 #ifndef TemporalGraph_H
 #define TemporalGraph_H
 

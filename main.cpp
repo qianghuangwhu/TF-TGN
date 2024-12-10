@@ -1,4 +1,3 @@
-// g++ -fopenmp -std=c++11 main.cpp TemporalGraph.cpp readcsv.cpp  utils.cpp -o main
 #include "TemporalGraph.h"
 #include "readcsv.h"
 #include "utils.h"

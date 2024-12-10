@@ -1,4 +1,3 @@
-// readcsv.h
 #ifndef GRAPH_CSV_READER_H
 #define GRAPH_CSV_READER_H
 #include <iostream>
