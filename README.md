@@ -6,6 +6,7 @@ The codebase for TF-TGN, a temporal graph neural network (TGNN) based on the **T
 
 ## Requirements
 ```
+- gcc version > 9.4.0 
 - torch==2.3.0+cu121
 - torch-scatter==2.1.2+pt23cu121
 - triton==2.3.0
