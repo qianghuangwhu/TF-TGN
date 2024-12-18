@@ -17,12 +17,30 @@ The codebase for TF-TGN, a temporal graph neural network (TGNN) based on the **T
 - numpy==1.26.4
 ```
 ## Datasets
-- [UCI](http://konect.cc/networks/opsahl-ucforum/)
-- [Wikipedia, Reddit, LastFM](https://snap.stanford.edu/jodie/#datasets)
-- [Stack-Overflow](https://snap.stanford.edu/data/sx-stackoverflow.html)
-- [Wiki-Talk](http://snap.stanford.edu/data/wiki-talk-temporal.html)
-- [GDELT, MAG](https://github.com/amazon-science/tgl/blob/main/down.sh)
-## Sampling
+|Dataset|Link|
+|-|-|
+|UCI|http://konect.cc/networks/opsahl-ucforum/|
+|Wikipedia, Reddit, LastFM|https://snap.stanford.edu/jodie/#datasets|
+|Stack-Overflow|https://snap.stanford.edu/data/sx-stackoverflow.html|
+|Wiki-Talk|http://snap.stanford.edu/data/wiki-talk-temporal.html|
+|GDELT, MAG|https://github.com/amazon-science/tgl/blob/main/down.sh|
+
+## Code of TGNN models and Frameworks
+### 6 TGNN models
+|Model|Link|
+|-|-|
+|TGN/DyREP/JODIE|https://github.com/twitter-research/tgn|
+|APAN|https://github.com/WangXuhongCN/APAN|
+|TGAT|https://github.com/StatsDLMathsRecomSys/Inductive-representation-learning-on-temporal-graphs|
+|DySAT|https://github.com/aravindsankar28/DySAT|
+
+### 3 TGNN frameworks
+|Frameworks|Link|
+|-|-|
+|TGL|https://github.com/amazon-science/tgl|
+|DistTGL|https://github.com/amazon-science/disttgl|
+|ETC|https://github.com/eddiegaoo/ETC|
+## TF-TGN T-CSR Conversion and Sampling
 This  code is the implementation of the parallel sampling algorithm in the paper to enhance the efficiency of T-CSR converting and  temporal neighbor sampling. 
 ### compile
 ```bash
@@ -42,7 +60,7 @@ For example, `sample_num=128, batch_size=512`
 The code of the TF-TGN model  will be released once we obtain open-source licenses from our collaborators and partner organizations.
 
 TF-TGN incorporates the the following components:
-- Flash-attention 
+- Flash-attention 2
 - Memeory-efficient attention
 - Distributed training - FSDP/DDP
 - Mixed precision training
