@@ -29,7 +29,7 @@ The codebase for TF-TGN, a temporal graph neural network (TGNN) based on the **T
 ### 6 TGNN models
 |Model|Link|
 |-|-|
-|TGN/DyREP/JODIE|https://github.com/twitter-research/tgn|
+|TGN, DyREP, JODIE|https://github.com/twitter-research/tgn|
 |APAN|https://github.com/WangXuhongCN/APAN|
 |TGAT|https://github.com/StatsDLMathsRecomSys/Inductive-representation-learning-on-temporal-graphs|
 |DySAT|https://github.com/aravindsankar28/DySAT|
