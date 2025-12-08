@@ -60,7 +60,7 @@ For example, `sample_num=128, batch_size=512`
 The code of the TF-TGN model  will be released once we obtain open-source licenses from our collaborators and partner organizations.
 
 TF-TGN incorporates the the following components:
-- Flash-attention 2
+- Flash-attention 2 ([xformers](https://github.com/facebookresearch/xformers))
 - Memeory-efficient attention
 - Distributed training - FSDP/DDP
 - Mixed precision training
